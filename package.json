@@ -1,6 +1,6 @@
 {
-  "name": "photo-gallery",
-  "version": "0.0.1",
+  "name": "unboxlog",
+  "version": "1.0.0",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
@@ -21,13 +21,24 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@awesome-cordova-plugins/ftp": "^6.12.0",
+    "@capacitor-community/camera-preview": "^6.0.0",
+    "@capacitor/android": "^6.2.0",
     "@capacitor/app": "6.0.2",
-    "@capacitor/core": "6.2.0",
+    "@capacitor/camera": "^6.1.1",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.2",
     "@capacitor/haptics": "6.0.2",
+    "@capacitor/ios": "^6.2.0",
     "@capacitor/keyboard": "6.0.3",
+    "@capacitor/preferences": "^6.0.3",
     "@capacitor/status-bar": "6.0.2",
     "@ionic/angular": "^8.0.0",
-    "ionicons": "^7.2.1",
+    "@ionic/pwa-elements": "^3.3.0",
+    "cordova-plugin-ftp": "^1.2.1",
+    "docx": "^9.0.3",
+    "file-saver": "^2.0.5",
+    "ionicons": "^7.4.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
@@ -42,7 +53,7 @@
     "@angular/cli": "^18.0.0",
     "@angular/compiler-cli": "^18.0.0",
     "@angular/language-service": "^18.0.0",
-    "@capacitor/cli": "6.2.0",
+    "@capacitor/cli": "^6.2.0",
     "@ionic/angular-toolkit": "^11.0.1",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -60,5 +71,5 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.0"
   },
-  "description": "An Ionic project"
+  "description": "UnboxLog - Dokumentation von Unboxing-Prozessen"
 }
